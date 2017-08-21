@@ -55,4 +55,4 @@ for i in range(1000):
     if i % 50 == 0:
         # to see the step improvement
         print(sess.run(loss, feed_dict={xs: x_data, ys: y_data}))
-
+#
